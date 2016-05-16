@@ -1,0 +1,5443 @@
+version=52;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=358;
+	};
+	class MarkerIDProvider
+	{
+		nextID=5;
+	};
+	class Camera
+	{
+		pos[]={5691.5894,517.73334,7287.8501};
+		dir[]={0.99429953,-0.088064149,-0.062220246};
+		up[]={0.088211656,0.9957853,-0.0055163647};
+		aside[]={-0.062483657,-1.3831086e-005,-0.99827844};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"rhs_c_a2port_car",
+	"rhs_c_trucks",
+	"rhs_main",
+	"A3_Structures_F_Mil_Flags",
+	"rhsusf_c_hmmwv",
+	"rhsusf_vehicles",
+	"A3_Characters_F_OPFOR",
+	"a3_characters_f",
+	"A3_Characters_F_BLUFOR",
+	"rhs_c_cars",
+	"A3_Characters_F_Civil",
+	"CAStructures_E_Misc_Misc_Interier",
+	"cup_castructures_e_misc_misc_interier",
+	"A3_Structures_F_Furniture",
+	"A3_Structures_F_Civ_Camping",
+	"CUP_A1_EditorObjects",
+	"CUP_A2_EditorObjects",
+	"rhsusf_c_m113",
+	"A3_Structures_F_Mil_BagFence",
+	"A3_Structures_F_Mil_BagBunker",
+	"cup_misc_e_config",
+	"cup_misc3_config",
+	"A3_Structures_F_Mil_Fortification",
+	"A3_Soft_F_SUV",
+	"A3_Soft_F_Truck",
+	"A3_Soft_F_Car"
+};
+randomSeed=9044672;
+class ScenarioData
+{
+	author="galevsky";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2007;
+		month=6;
+		day=7;
+		hour=18;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Entities
+	{
+		items=104;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4041.2568,171.60527,5024.4336};
+				angles[]={0.012881833,0.3203364,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=6;
+			type="RHS_UAZ_MSV_01";
+			atlOffset=-0.00025939941;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4018.696,172.76741,5030.8628};
+				angles[]={0.0018269814,1.9383262,6.2555761};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=13;
+			type="rhs_gaz66_msv";
+			atlOffset=0.0034484863;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4014.4951,172.86005,5037.6226};
+				angles[]={0.0018593199,2.0339034,6.2574167};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=24;
+			type="rhs_gaz66_msv";
+			atlOffset=-0.00077819824;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4023.9504,175.28687,5048.5835};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=25;
+			type="rhs_Flag_Russia_F";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4047.3762,171.57077,5027.1313};
+				angles[]={0.012881833,0.3203364,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=26;
+			type="RHS_UAZ_MSV_01";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7482.6792,35.962738,5750.5176};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=27;
+			type="Flag_US_F";
+			atlOffset=-3.8146973e-006;
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7459.2124,32.098007,5714.3066};
+				angles[]={0,1.4873737,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=28;
+			type="rhsusf_m1025_w_m2";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7459.5098,34.007889,5709.2588};
+				angles[]={0,1.590874,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=29;
+			type="rhsusf_m1025_w_mk19";
+			atlOffset=1.9073486e-006;
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7500.2769,33.925774,5744.9722};
+				angles[]={0,5.2295136,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=32;
+			type="rhsusf_m1025_w";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7500.6265,33.925774,5726.7837};
+				angles[]={0,0.077964567,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=33;
+			type="rhsusf_m1025_w";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7506.979,33.92495,5714.2837};
+				angles[]={0,5.3500843,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=34;
+			type="rhsusf_m998_w_2dr_halftop";
+			atlOffset=1.9073486e-006;
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7506.1162,33.92495,5708.5889};
+				angles[]={0,5.3500843,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=35;
+			type="rhsusf_m998_w_2dr_halftop";
+			atlOffset=1.9073486e-006;
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7506.0835,32.093048,5701.1865};
+				angles[]={0,5.3002434,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=36;
+			type="rhsusf_m998_w_4dr";
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7498.3599,32.093048,5697.0708};
+				angles[]={0,0.026608339,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=37;
+			type="rhsusf_m998_w_4dr";
+		};
+		class Item14
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4026.5039,171.59758,5029.9678};
+						angles[]={0,0.92596698,0};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						skill=0.2;
+						rank="COLONEL";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset_mapcase"";this addHeadgear ""H_Beret_blk"";this addBackpack ""tf_mr3000_rhs"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_1p29"";[this,1,""rhs_mag_9x18_12_57N181S""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_makarov_pmm"";this addWeapon ""Binocular"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,2,""rhs_mag_9x18_12_57N181S""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""MIKE""];";
+						description="Chef de Camp MIKE";
+						isPlayer=1;
+						isPlayable=1;
+					};
+					id=39;
+					type="O_officer_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4028.1309,171.54504,5035.2412};
+						angles[]={0,3.4314744,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_sniper"";this addHeadgear ""rhs_Booniehat_digi"";this setFace ""GreekHead_A3_10_a"";[this,1,""CUP_10Rnd_762x54_SVD_M""] call omtk_fnc_addItem;this addWeapon ""CUP_srifle_SVD_des"";this addPrimaryWeaponItem ""CUP_optic_PSO_1"";this addWeapon ""lerca_1200_black"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,11,""CUP_10Rnd_762x54_SVD_M""] call omtk_fnc_addItem;[this,1,""ACE_RangeCard""] call omtk_fnc_addItem;[this,1,""ACE_Kestrel4500""] call omtk_fnc_addItem;[this,1,""ACE_ATragMX""] call omtk_fnc_addItem;[this,2,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,2,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""MIKE""];";
+						description="Marksman MIKE";
+						isPlayable=1;
+					};
+					id=40;
+					type="O_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4031.9246,171.56555,5030.77};
+						angles[]={0,4.5768509,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset"";this addHeadgear ""rhs_Booniehat_digi"";this setFace ""GreekHead_A3_10_a"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";this addWeapon ""ACE_Yardage450"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""MIKE""];";
+						description="Fusilier Reconnaissance MIKE";
+						isPlayable=1;
+					};
+					id=41;
+					type="O_recon_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4030.658,171.54233,5033.2959};
+						angles[]={0,4.0508709,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset"";this addHeadgear ""rhs_Booniehat_digi"";this setFace ""GreekHead_A3_10_a"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";this addWeapon ""ACE_Yardage450"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""MIKE""];";
+						description="Fusilier Reconnaissance MIKE";
+						isPlayable=1;
+					};
+					id=42;
+					type="O_recon_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=38;
+			atlOffset=1.5258789e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="MIKE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item15
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4008.2124,171.7433,5049.5225};
+						angles[]={0,4.9227505,0};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						skill=0.2;
+						rank="MAJOR";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset_mapcase"";this addHeadgear ""rhs_fieldcap_digi"";this addBackpack ""tf_mr3000_rhs"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_1p29"";[this,1,""rhs_mag_9x18_12_57N181S""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_makarov_pmm"";this addWeapon ""Binocular"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,2,""rhs_mag_9x18_12_57N181S""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""VICTOR""];";
+						description="Chef de Groupe VICTOR";
+						isPlayable=1;
+					};
+					id=44;
+					type="O_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4004.499,171.75038,5055.54};
+						angles[]={0,1.8033061,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_vog_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m_gp25"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";this addWeapon ""Binocular"";[this,6,""rhs_VOG25""] call omtk_fnc_addItem;[this,6,""rhs_VOG25P""] call omtk_fnc_addItem;[this,6,""rhs_GRD40_White""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Green""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Red""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""VICTOR""];";
+						description="Chef d'Équipe VICTOR";
+						isPlayable=1;
+					};
+					id=45;
+					type="O_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3999.6335,171.86691,5056.6919};
+						angles[]={0,1.8033061,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_vog_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m_gp25"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";this addWeapon ""Binocular"";[this,6,""rhs_VOG25""] call omtk_fnc_addItem;[this,6,""rhs_VOG25P""] call omtk_fnc_addItem;[this,6,""rhs_GRD40_White""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Green""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Red""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""VICTOR""];";
+						description="Chef d'Équipe VICTOR";
+						isPlayable=1;
+					};
+					id=48;
+					type="O_Soldier_TL_F";
+					atlOffset=-1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4003.3469,171.85175,5050.6748};
+						angles[]={0,1.8033061,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_medic"";this addHeadgear ""rhs_6b27m_digi"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";[this,40,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,15,""ACE_morphine""] call omtk_fnc_addItem;[this,15,""ACE_epinephrine""] call omtk_fnc_addItem;[this,5,""ACE_bloodIV""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""VICTOR""];";
+						description="infirmier VICTOR";
+						isPlayable=1;
+					};
+					id=46;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4002.1948,171.95688,5045.8091};
+						angles[]={0,1.8033061,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_rpg_empty"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";[this,1,""rhs_rpg7_PG7VR_mag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_rpg7"";this addSecondaryWeaponItem ""rhs_acc_pgo7v"";[this,2,""rhs_rpg7_PG7VL_mag""] call omtk_fnc_addItem;[this,2,""rhs_rpg7_OG7V_mag""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,7,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,2,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,2,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""VICTOR""];";
+						description="Fusilier Anti-Tank VICTOR";
+						isPlayable=1;
+					};
+					id=47;
+					type="O_Soldier_AT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3998.4814,171.99373,5051.8267};
+						angles[]={0,1.8033061,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_sniper"";this addHeadgear ""rhs_Booniehat_digi"";this setFace ""GreekHead_A3_10_a"";[this,1,""CUP_10Rnd_762x54_SVD_M""] call omtk_fnc_addItem;this addWeapon ""CUP_srifle_SVD_des"";this addPrimaryWeaponItem ""CUP_optic_PSO_1"";this addWeapon ""lerca_1200_black"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,11,""CUP_10Rnd_762x54_SVD_M""] call omtk_fnc_addItem;[this,1,""ACE_RangeCard""] call omtk_fnc_addItem;[this,1,""ACE_Kestrel4500""] call omtk_fnc_addItem;[this,1,""ACE_ATragMX""] call omtk_fnc_addItem;[this,2,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,2,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""VICTOR""];";
+						description="Marksman VICTOR";
+						isPlayable=1;
+					};
+					id=49;
+					type="O_soldier_M_F";
+					atlOffset=-1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3997.3293,172.12624,5046.9614};
+						angles[]={0,1.8033061,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset"";this addHeadgear ""rhs_6b27m_digi"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_100Rnd_762x54mmR""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_pkp"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,4,""rhs_100Rnd_762x54mmR""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""VICTOR""];";
+						description="Mitrailleur VICTOR";
+						isPlayable=1;
+					};
+					id=50;
+					type="O_support_GMG_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=43;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="VICTOR";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item16
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4007.8745,171.95044,5025.1182};
+						angles[]={0,3.4806337,0};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						skill=0.2;
+						rank="MAJOR";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset_mapcase"";this addHeadgear ""rhs_fieldcap_digi"";this addBackpack ""tf_mr3000_rhs"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_1p29"";[this,1,""rhs_mag_9x18_12_57N181S""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_makarov_pmm"";this addWeapon ""Binocular"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,2,""rhs_mag_9x18_12_57N181S""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""OSCAR""];";
+						description="Chef de Groupe OSCAR";
+						isPlayable=1;
+					};
+					id=52;
+					type="O_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4001.4302,172.15092,5022.2075};
+						angles[]={0,0.36118937,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_vog_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m_gp25"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";this addWeapon ""Binocular"";[this,6,""rhs_VOG25""] call omtk_fnc_addItem;[this,6,""rhs_VOG25P""] call omtk_fnc_addItem;[this,6,""rhs_GRD40_White""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Green""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Red""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""OSCAR""];";
+						description="Chef d'Équipe OSCAR";
+						isPlayable=1;
+					};
+					id=53;
+					type="O_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3999.6633,172.14067,5017.5303};
+						angles[]={0,0.36118937,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_vog_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m_gp25"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";this addWeapon ""Binocular"";[this,6,""rhs_VOG25""] call omtk_fnc_addItem;[this,6,""rhs_VOG25P""] call omtk_fnc_addItem;[this,6,""rhs_GRD40_White""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Green""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Red""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""OSCAR""];";
+						description="Chef d'Équipe OSCAR";
+						isPlayable=1;
+					};
+					id=56;
+					type="O_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4006.1077,172.02289,5020.4409};
+						angles[]={0,0.36118937,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_medic"";this addHeadgear ""rhs_6b27m_digi"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";[this,40,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,15,""ACE_morphine""] call omtk_fnc_addItem;[this,15,""ACE_epinephrine""] call omtk_fnc_addItem;[this,5,""ACE_bloodIV""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""OSCAR""];";
+						description="infirmier OSCAR";
+						isPlayable=1;
+					};
+					id=54;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4010.7849,172.24632,5018.6738};
+						angles[]={0,0.36118937,0};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_rpg_empty"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";[this,1,""rhs_rpg7_PG7VR_mag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_rpg7"";this addSecondaryWeaponItem ""rhs_acc_pgo7v"";[this,2,""rhs_rpg7_PG7VL_mag""] call omtk_fnc_addItem;[this,2,""rhs_rpg7_OG7V_mag""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,7,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,2,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,2,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""OSCAR""];";
+						description="Fusilier Anti-Tank OSCAR";
+						isPlayable=1;
+					};
+					id=55;
+					type="O_Soldier_AT_F";
+					atlOffset=0.35903931;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4004.3406,172.14999,5015.7632};
+						angles[]={0,0.36118937,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_sniper"";this addHeadgear ""rhs_Booniehat_digi"";this setFace ""GreekHead_A3_10_a"";[this,1,""CUP_10Rnd_762x54_SVD_M""] call omtk_fnc_addItem;this addWeapon ""CUP_srifle_SVD_des"";this addPrimaryWeaponItem ""CUP_optic_PSO_1"";this addWeapon ""lerca_1200_black"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,11,""CUP_10Rnd_762x54_SVD_M""] call omtk_fnc_addItem;[this,1,""ACE_RangeCard""] call omtk_fnc_addItem;[this,1,""ACE_Kestrel4500""] call omtk_fnc_addItem;[this,1,""ACE_ATragMX""] call omtk_fnc_addItem;[this,2,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,2,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""OSCAR""];";
+						description="Marksman OSCAR";
+						isPlayable=1;
+					};
+					id=57;
+					type="O_soldier_M_F";
+					atlOffset=0.072875977;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4009.0181,172.24684,5013.9966};
+						angles[]={0,0.36118937,0};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset"";this addHeadgear ""rhs_6b27m_digi"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_100Rnd_762x54mmR""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_pkp"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,4,""rhs_100Rnd_762x54mmR""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""OSCAR""];";
+						description="Mitrailleur OSCAR";
+						isPlayable=1;
+					};
+					id=58;
+					type="O_support_GMG_F";
+					atlOffset=0.30752563;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=51;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="OSCAR";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item17
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=7;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4051.8049,171.51022,5035.3672};
+						angles[]={0,5.6493845,0};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						skill=0.2;
+						rank="MAJOR";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset_mapcase"";this addHeadgear ""rhs_fieldcap_digi"";this addBackpack ""tf_mr3000_rhs"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_1p29"";[this,1,""rhs_mag_9x18_12_57N181S""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_makarov_pmm"";this addWeapon ""Binocular"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,2,""rhs_mag_9x18_12_57N181S""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""QUEBEC""];";
+						description="Chef de Groupe QUEBEC";
+						isPlayable=1;
+					};
+					id=60;
+					type="O_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4051.8984,171.49141,5040.7739};
+						angles[]={0,2.5299399,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_vog_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m_gp25"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";this addWeapon ""Binocular"";[this,6,""rhs_VOG25""] call omtk_fnc_addItem;[this,6,""rhs_VOG25P""] call omtk_fnc_addItem;[this,6,""rhs_GRD40_White""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Green""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Red""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""QUEBEC""];";
+						description="Chef d'Équipe QUEBEC";
+						isPlayable=1;
+					};
+					id=61;
+					type="O_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4049.0271,171.34137,5044.8672};
+						angles[]={0,2.5299399,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_vog_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m_gp25"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";this addWeapon ""Binocular"";[this,6,""rhs_VOG25""] call omtk_fnc_addItem;[this,6,""rhs_VOG25P""] call omtk_fnc_addItem;[this,6,""rhs_GRD40_White""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Green""] call omtk_fnc_addItem;[this,4,""rhs_GRD40_Red""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""QUEBEC""];";
+						description="Chef d'Équipe QUEBEC";
+						isPlayable=1;
+					};
+					id=64;
+					type="O_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4048.9341,171.47124,5039.4609};
+						angles[]={0,2.5299399,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_medic"";this addHeadgear ""rhs_6b27m_digi"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";[this,40,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,15,""ACE_morphine""] call omtk_fnc_addItem;[this,15,""ACE_epinephrine""] call omtk_fnc_addItem;[this,5,""ACE_bloodIV""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""QUEBEC""];";
+						description="infirmier QUEBEC";
+						isPlayable=1;
+					};
+					id=62;
+					type="O_medic_F";
+					atlOffset=-1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4046.6501,171.53896,5037.4946};
+						angles[]={0,2.5299399,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset"";this addHeadgear ""rhs_6b27m_digi_ess"";this addBackpack ""rhs_rpg_empty"";[this,1,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_ak74m"";this addPrimaryWeaponItem ""rhs_acc_ekp1"";[this,1,""rhs_rpg7_PG7VR_mag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_rpg7"";this addSecondaryWeaponItem ""rhs_acc_pgo7v"";[this,2,""rhs_rpg7_PG7VL_mag""] call omtk_fnc_addItem;[this,2,""rhs_rpg7_OG7V_mag""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,7,""rhs_30Rnd_545x39_7N10_AK""] call omtk_fnc_addItem;[this,2,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,2,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""QUEBEC""];";
+						description="Fusilier Anti-Tank QUEBEC";
+						isPlayable=1;
+					};
+					id=63;
+					type="O_Soldier_AT_F";
+					atlOffset=0.10134888;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4046.0627,171.33864,5043.5542};
+						angles[]={0,2.5299399,0};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_sniper"";this addHeadgear ""rhs_Booniehat_digi"";this setFace ""GreekHead_A3_10_a"";[this,1,""CUP_10Rnd_762x54_SVD_M""] call omtk_fnc_addItem;this addWeapon ""CUP_srifle_SVD_des"";this addPrimaryWeaponItem ""CUP_optic_PSO_1"";this addWeapon ""lerca_1200_black"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,11,""CUP_10Rnd_762x54_SVD_M""] call omtk_fnc_addItem;[this,1,""ACE_RangeCard""] call omtk_fnc_addItem;[this,1,""ACE_Kestrel4500""] call omtk_fnc_addItem;[this,1,""ACE_ATragMX""] call omtk_fnc_addItem;[this,2,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,2,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""QUEBEC""];";
+						description="Marksman QUEBEC";
+						isPlayable=1;
+					};
+					id=65;
+					type="O_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4043.7791,171.69801,5041.5884};
+						angles[]={0,2.5299399,0};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_msv_emr"";this addVest ""rhs_6b23_digi_6sh92_headset"";this addHeadgear ""rhs_6b27m_digi"";this addBackpack ""rhs_assault_umbts"";[this,1,""rhs_100Rnd_762x54mmR""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_pkp"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,1,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,1,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,4,""rhs_100Rnd_762x54mmR""] call omtk_fnc_addItem;[this,3,""rhs_mag_rgd5""] call omtk_fnc_addItem;[this,3,""rhs_mag_rdg2_white""] call omtk_fnc_addItem;};(group this) setGroupId [""QUEBEC""];";
+						description="Mitrailleur QUEBEC";
+						isPlayable=1;
+					};
+					id=66;
+					type="O_support_GMG_F";
+					atlOffset=0.34234619;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=59;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="QUEBEC";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item18
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7487.8594,31.987375,5720.3628};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						skill=0.2;
+						rank="MAJOR";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_norotos_arc"";this addBackpack ""tf_rt1523g_rhs"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";[this,1,""rhsusf_mag_7x45acp_MHP""] call omtk_fnc_addItem;this addWeapon ""rhsusf_weap_m1911a1"";this addWeapon ""Binocular"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,2,""rhsusf_mag_7x45acp_MHP""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""BRAVO""];";
+						description="Chef de Groupe BRAVO";
+						isPlayable=1;
+					};
+					id=68;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7492.8594,31.987375,5715.3628};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_m4a1_m320"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";this addWeapon ""Binocular"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,6,""rhs_mag_M441_HE""] call omtk_fnc_addItem;[this,6,""rhs_mag_M433_HEDP""] call omtk_fnc_addItem;[this,6,""rhs_mag_m662_red""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";};(group this) setGroupId [""BRAVO""];";
+						description="Chef d'Équipe BRAVO";
+						isPlayable=1;
+					};
+					id=69;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7487.8594,31.987375,5710.3628};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_m4a1_m320"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";this addWeapon ""Binocular"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,6,""rhs_mag_M441_HE""] call omtk_fnc_addItem;[this,6,""rhs_mag_M433_HEDP""] call omtk_fnc_addItem;[this,6,""rhs_mag_m662_red""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";};(group this) setGroupId [""BRAVO""];";
+						description="Chef d'Équipe BRAVO";
+						isPlayable=1;
+					};
+					id=72;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7492.8594,31.987375,5710.3628};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhsusf_100Rnd_556x45_soft_pouch""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m249_pip_elcan"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,5,""rhsusf_100Rnd_556x45_soft_pouch""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""BRAVO""];";
+						description="Fusilier-Automatique BRAVO";
+						isPlayable=1;
+					};
+					id=70;
+					type="B_soldier_AR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7497.8594,31.987375,5710.3628};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,1,""tf47_m3maaws_HEAT""] call omtk_fnc_addItem;this addWeapon ""tf47_m3maaws"";this addSecondaryWeaponItem ""tf47_optic_m3maaws"";[this,1,""tf47_m3maaws_HEAT""] call omtk_fnc_addItem;[this,2,""tf47_m3maaws_HEDP""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,1,""rhs_mag_m67""] call omtk_fnc_addItem;[this,1,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""BRAVO""];";
+						description="Fusilier Anti-Tank BRAVO";
+						isPlayable=1;
+					};
+					id=71;
+					type="B_soldier_AT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7482.8594,31.987375,5715.3628};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhs_Booniehat_marpatwd"";this setFace ""WhiteHead_22_a"";[this,1,""rhsusf_20Rnd_762x51_m118_special_Mag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m14ebrri"";this addPrimaryWeaponItem ""optic_DMS"";this addWeapon ""ACE_Vector"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhsusf_20Rnd_762x51_m118_special_Mag""] call omtk_fnc_addItem;[this,1,""ACE_RangeCard""] call omtk_fnc_addItem;[this,1,""ACE_Kestrel4500""] call omtk_fnc_addItem;[this,1,""ACE_ATragMX""] call omtk_fnc_addItem;};(group this) setGroupId [""BRAVO""];";
+						description="Marksman BRAVO";
+						isPlayable=1;
+					};
+					id=73;
+					type="B_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7477.8594,31.987375,5710.3628};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CORPORAL";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,11,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""BRAVO""];";
+						description="Fusilier BRAVO";
+						isPlayable=1;
+					};
+					id=75;
+					type="B_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7482.8594,31.987375,5710.3628};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,40,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,15,""ACE_morphine""] call omtk_fnc_addItem;[this,15,""ACE_epinephrine""] call omtk_fnc_addItem;[this,5,""ACE_bloodIV""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""BRAVO""];";
+						description="infirmier BRAVO";
+						isPlayable=1;
+					};
+					id=74;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=67;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="BRAVO";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item19
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7502.8076,31.987375,5761.1411};
+						angles[]={0,1.656536,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						skill=0.2;
+						rank="MAJOR";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_norotos_arc"";this addBackpack ""tf_rt1523g_rhs"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";[this,1,""rhsusf_mag_7x45acp_MHP""] call omtk_fnc_addItem;this addWeapon ""rhsusf_weap_m1911a1"";this addWeapon ""Binocular"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,2,""rhsusf_mag_7x45acp_MHP""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""CHARLIE""];";
+						description="Chef de Groupe CHARLIE";
+						isPlayable=1;
+					};
+					id=77;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7508.0234,31.987375,5765.9155};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_m4a1_m320"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";this addWeapon ""Binocular"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,6,""rhs_mag_M441_HE""] call omtk_fnc_addItem;[this,6,""rhs_mag_M433_HEDP""] call omtk_fnc_addItem;[this,6,""rhs_mag_m662_red""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";};(group this) setGroupId [""CHARLIE""];";
+						description="Chef d'Équipe CHARLIE";
+						isPlayable=1;
+					};
+					id=78;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7512.7979,31.987375,5760.6992};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_m4a1_m320"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";this addWeapon ""Binocular"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,6,""rhs_mag_M441_HE""] call omtk_fnc_addItem;[this,6,""rhs_mag_M433_HEDP""] call omtk_fnc_addItem;[this,6,""rhs_mag_m662_red""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";};(group this) setGroupId [""CHARLIE""];";
+						description="Chef d'Équipe CHARLIE";
+						isPlayable=1;
+					};
+					id=81;
+					type="B_Soldier_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7513.0186,31.987375,5765.6943};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhsusf_100Rnd_556x45_soft_pouch""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m249_pip_elcan"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,5,""rhsusf_100Rnd_556x45_soft_pouch""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""CHARLIE""];";
+						description="Fusilier-Automatique CHARLIE";
+						isPlayable=1;
+					};
+					id=79;
+					type="B_soldier_AR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7513.2397,31.987375,5770.6895};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,1,""tf47_m3maaws_HEAT""] call omtk_fnc_addItem;this addWeapon ""tf47_m3maaws"";this addSecondaryWeaponItem ""tf47_optic_m3maaws"";[this,1,""tf47_m3maaws_HEAT""] call omtk_fnc_addItem;[this,2,""tf47_m3maaws_HEDP""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,1,""rhs_mag_m67""] call omtk_fnc_addItem;[this,1,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""CHARLIE""];";
+						description="Fusilier Anti-Tank CHARLIE";
+						isPlayable=1;
+					};
+					id=80;
+					type="B_soldier_AT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7507.582,31.987375,5755.9253};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhs_Booniehat_marpatwd"";this setFace ""WhiteHead_22_a"";[this,1,""rhsusf_20Rnd_762x51_m118_special_Mag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m14ebrri"";this addPrimaryWeaponItem ""optic_DMS"";this addWeapon ""ACE_Vector"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhsusf_20Rnd_762x51_m118_special_Mag""] call omtk_fnc_addItem;[this,1,""ACE_RangeCard""] call omtk_fnc_addItem;[this,1,""ACE_Kestrel4500""] call omtk_fnc_addItem;[this,1,""ACE_ATragMX""] call omtk_fnc_addItem;};(group this) setGroupId [""CHARLIE""];";
+						description="Marksman CHARLIE";
+						isPlayable=1;
+					};
+					id=82;
+					type="B_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7512.356,31.987375,5750.709};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CORPORAL";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,11,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""CHARLIE""];";
+						description="Fusilier CHARLIE";
+						isPlayable=1;
+					};
+					id=84;
+					type="B_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7512.5771,31.987375,5755.7041};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,40,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,15,""ACE_morphine""] call omtk_fnc_addItem;[this,15,""ACE_epinephrine""] call omtk_fnc_addItem;[this,5,""ACE_bloodIV""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""CHARLIE""];";
+						description="infirmier CHARLIE";
+						isPlayable=1;
+					};
+					id=83;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=76;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="CHARLIE";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item20
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7494.9268,31.987373,5673.7759};
+						angles[]={0,1.656536,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						skill=0.2;
+						rank="MAJOR";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_norotos_arc"";this addBackpack ""tf_rt1523g_rhs"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";[this,1,""rhsusf_mag_7x45acp_MHP""] call omtk_fnc_addItem;this addWeapon ""rhsusf_weap_m1911a1"";this addWeapon ""Binocular"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,2,""rhsusf_mag_7x45acp_MHP""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""ALPHA""];";
+						description="Chef de Groupe ALPHA";
+						isPlayable=1;
+					};
+					id=86;
+					type="B_Soldier_SL_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7500.1426,31.987373,5678.5503};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_m4a1_m320"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";this addWeapon ""Binocular"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,6,""rhs_mag_M441_HE""] call omtk_fnc_addItem;[this,6,""rhs_mag_M433_HEDP""] call omtk_fnc_addItem;[this,6,""rhs_mag_m662_red""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";};(group this) setGroupId [""ALPHA""];";
+						description="Chef d'Équipe ALPHA";
+						isPlayable=1;
+					};
+					id=87;
+					type="B_Soldier_TL_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7504.917,31.987373,5673.334};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CAPTAIN";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_m4a1_m320"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";this addWeapon ""Binocular"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,6,""rhs_mag_M441_HE""] call omtk_fnc_addItem;[this,6,""rhs_mag_M433_HEDP""] call omtk_fnc_addItem;[this,6,""rhs_mag_m662_red""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";};(group this) setGroupId [""ALPHA""];";
+						description="Chef d'Équipe ALPHA";
+						isPlayable=1;
+					};
+					id=90;
+					type="B_Soldier_TL_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7505.1377,31.987373,5678.3291};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhsusf_100Rnd_556x45_soft_pouch""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m249_pip_elcan"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,5,""rhsusf_100Rnd_556x45_soft_pouch""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""ALPHA""];";
+						description="Fusilier-Automatique ALPHA";
+						isPlayable=1;
+					};
+					id=88;
+					type="B_soldier_AR_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7505.3589,31.987373,5683.3242};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,1,""tf47_m3maaws_HEAT""] call omtk_fnc_addItem;this addWeapon ""tf47_m3maaws"";this addSecondaryWeaponItem ""tf47_optic_m3maaws"";[this,1,""tf47_m3maaws_HEAT""] call omtk_fnc_addItem;[this,2,""tf47_m3maaws_HEDP""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,1,""rhs_mag_m67""] call omtk_fnc_addItem;[this,1,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""ALPHA""];";
+						description="Fusilier Anti-Tank ALPHA";
+						isPlayable=1;
+					};
+					id=89;
+					type="B_soldier_AT_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7499.7012,31.987373,5668.5601};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="SERGEANT";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhs_Booniehat_marpatwd"";this setFace ""WhiteHead_22_a"";[this,1,""rhsusf_20Rnd_762x51_m118_special_Mag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m14ebrri"";this addPrimaryWeaponItem ""optic_DMS"";this addWeapon ""ACE_Vector"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhsusf_20Rnd_762x51_m118_special_Mag""] call omtk_fnc_addItem;[this,1,""ACE_RangeCard""] call omtk_fnc_addItem;[this,1,""ACE_Kestrel4500""] call omtk_fnc_addItem;[this,1,""ACE_ATragMX""] call omtk_fnc_addItem;};(group this) setGroupId [""ALPHA""];";
+						description="Marksman ALPHA";
+						isPlayable=1;
+					};
+					id=91;
+					type="B_soldier_M_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7504.4751,31.987373,5663.3438};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						rank="CORPORAL";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,11,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""ALPHA""];";
+						description="Fusilier ALPHA";
+						isPlayable=1;
+					};
+					id=93;
+					type="B_Soldier_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7504.6963,31.987373,5668.3389};
+						angles[]={0,4.7565823,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						skill=0.2;
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_headset"";this addBackpack ""B_Kitbag_mcamo"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_compm4"";[this,40,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,15,""ACE_morphine""] call omtk_fnc_addItem;[this,15,""ACE_epinephrine""] call omtk_fnc_addItem;[this,5,""ACE_bloodIV""] call omtk_fnc_addItem;[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;};(group this) setGroupId [""ALPHA""];";
+						description="infirmier ALPHA";
+						isPlayable=1;
+					};
+					id=92;
+					type="B_medic_F";
+					atlOffset=-1.9073486e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=85;
+			atlOffset=-1.9073486e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="ALPHA";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item21
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7481.708,31.987375,5745.9629};
+						angles[]={0,3.1888039,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="COLONEL";
+						init="if (isServer) then { removeAllWeapons this;removeAllItems this;removeAllAssignedItems this;removeUniform this;removeVest this;removeBackpackGlobal this;removeHeadgear this;removeGoggles this;this forceAddUniform ""rhs_uniform_FROG01_wd"";this addVest ""rhsusf_spc"";this addHeadgear ""rhsusf_mich_helmet_marpatwd_norotos_arc"";this addBackpack ""tf_rt1523g_rhs"";[this,1,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;this addWeapon ""rhs_weap_m4a1_grip"";this addPrimaryWeaponItem ""rhsusf_acc_ACOG3"";[this,1,""rhsusf_mag_7x45acp_MHP""] call omtk_fnc_addItem;this addWeapon ""rhsusf_weap_m1911a1"";this addWeapon ""Binocular"";[this,6,""ACE_fieldDressing""] call omtk_fnc_addItem;[this,2,""ACE_morphine""] call omtk_fnc_addItem;[this,2,""rhs_mag_m67""] call omtk_fnc_addItem;[this,2,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_EarPlugs""] call omtk_fnc_addItem;this linkItem ""ItemMap"";this linkItem ""ItemCompass"";this linkItem ""ItemRadio"";this linkItem ""tf_microdagr"";[this,9,""rhs_mag_30Rnd_556x45_M855A1_Stanag""] call omtk_fnc_addItem;[this,2,""rhsusf_mag_7x45acp_MHP""] call omtk_fnc_addItem;[this,4,""rhs_mag_m67""] call omtk_fnc_addItem;[this,4,""SmokeShell""] call omtk_fnc_addItem;[this,1,""ACE_MapTools""] call omtk_fnc_addItem;[this,1,""ACE_microDAGR""] call omtk_fnc_addItem;};(group this) setGroupId [""ROMEO""];";
+						description="Chef de Camp ROMEO";
+						isPlayable=1;
+					};
+					id=95;
+					type="B_officer_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=94;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="ROMEO";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item22
+		{
+			dataType="Marker";
+			position[]={5755.7144,122.97272,6754.7744};
+			name="marker_0";
+			text="CAPTURE AREA";
+			markerType="RECTANGLE";
+			type="rectangle";
+			fillName="DiagGrid";
+			a=50;
+			b=33;
+			angle=0.17099996;
+			id=96;
+			atlOffset=-7.6293945e-006;
+		};
+		class Item23
+		{
+			dataType="Trigger";
+			position[]={5755.4092,122.97272,6754.7549};
+			angle=0.0065624374;
+			class Attributes
+			{
+				name="cap_area";
+				sizeB=33;
+				isRectangle=1;
+			};
+			id=97;
+			type="EmptyDetector";
+			atlOffset=-7.6293945e-006;
+		};
+		class Item24
+		{
+			dataType="Marker";
+			position[]={4018.3442,171.53384,5044.0615};
+			name="marker_1";
+			type="rhs_flag_Russia";
+			id=98;
+		};
+		class Item25
+		{
+			dataType="Marker";
+			position[]={7478.127,31.985937,5733.2539};
+			name="marker_2";
+			type="flag_USA";
+			id=99;
+		};
+		class Item26
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4012.793,171.59566,5055.106};
+				angles[]={0.025778513,3.560751,6.246376};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=131;
+			type="rhs_tigr_msv";
+			atlOffset=-0.0019989014;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""rhs_weap_rpg26"",""FirstAidKit"",""Medikit""],[4,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""rhs_acc_1pn93_1""],[1]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4018.4121,171.60272,5046.8057};
+				angles[]={0.025778513,2.4766397,6.246376};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=132;
+			type="rhs_tigr_msv";
+			atlOffset=-0.0019836426;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""rhs_weap_rpg26"",""FirstAidKit"",""Medikit""],[4,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""rhs_acc_1pn93_1""],[1]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item28
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4028.2646,173.89719,5041.2383};
+				angles[]={0.025761059,4.071888,6.2703047};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=133;
+			type="rhs_tigr_sts_msv";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""rhs_weap_rpg26"",""FirstAidKit"",""Medikit""],[4,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""rhs_acc_1pn93_1""],[1]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4026.4502,173.84729,5044.1147};
+				angles[]={0.023928465,4.071888,6.2721372};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=134;
+			type="rhs_tigr_sts_msv";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""rhs_weap_rpg26"",""FirstAidKit"",""Medikit""],[4,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[4,8,2,6,4]],[[""rhs_acc_1pn93_1""],[1]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item30
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6671.23,226.41003,6345.3599};
+						angles[]={0,1.2503015,0};
+					};
+					side="Civilian";
+					flags=3;
+					class Attributes
+					{
+						init="(group this) setCombatMode ""BLUE""; this allowDamage false; this disableAI ""MOVE"";";
+						name="contactb";
+					};
+					id=137;
+					type="C_man_p_beggar_F";
+					atlOffset=0.36599731;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="enableSimulation";
+							expression="if !(is3DEN) then {_this enablesimulation _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=136;
+			atlOffset=0.36599731;
+		};
+		class Item31
+		{
+			dataType="Marker";
+			position[]={6671.0713,226.40868,6345.3501};
+			name="marker_3";
+			text="contact";
+			type="hd_objective";
+			colorName="ColorRed";
+			id=138;
+		};
+		class Item32
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3383.498,16.08087,6284.3457};
+						angles[]={0,5.7053418,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="(group this) setCombatMode ""BLUE""; this allowDamage false; this disableAI ""MOVE"";";
+						name="contact1";
+					};
+					id=140;
+					type="C_man_shorts_3_F";
+					atlOffset=9.727478e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="enableSimulation";
+							expression="if !(is3DEN) then {_this enablesimulation _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=139;
+			atlOffset=9.727478e-005;
+		};
+		class Item33
+		{
+			dataType="Marker";
+			position[]={3383.4148,16.079334,6284.5249};
+			name="marker_4";
+			text="contact";
+			type="hd_objective";
+			colorName="ColorBlue";
+			id=141;
+		};
+		class Item34
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3381.0825,16.311907,6289.7427};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=143;
+			type="Land_Table_small_EP1";
+		};
+		class Item35
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3381.0854,16.311924,6282.3052};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=144;
+			type="Land_Table_small_EP1";
+		};
+		class Item36
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3382.7898,16.483341,6272.5093};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=145;
+			type="Land_Table_EP1";
+		};
+		class Item37
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3377.8081,16.483351,6273.813};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=146;
+			type="Land_Table_EP1";
+			atlOffset=0.21986198;
+		};
+		class Item38
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3383.782,16.483351,6285.5093};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=147;
+			type="Land_Table_EP1";
+			atlOffset=1.1444092e-005;
+		};
+		class Item39
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3377.3171,16.483343,6297.3804};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=148;
+			type="Land_Table_EP1";
+		};
+		class Item40
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3379.7988,16.483339,6301.5854};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=149;
+			type="Land_Table_EP1";
+		};
+		class Item41
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3375.6152,16.597816,6283.9521};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=158;
+			type="Land_Vase_loam_3_EP1";
+			atlOffset=0.32826233;
+		};
+		class Item42
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3375.8381,16.598455,6286.79};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=160;
+			type="Land_Vase_loam_3_EP1";
+		};
+		class Item43
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3383.4651,16.441536,6298.5771};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=161;
+			type="Land_Vase_EP1";
+			atlOffset=0.11045265;
+		};
+		class Item44
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3386.5898,16.326012,6280.2852};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=162;
+			type="Land_Bench_EP1";
+		};
+		class Item45
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3375.7007,16.326042,6279.1836};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=163;
+			type="Land_Bench_EP1";
+		};
+		class Item46
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3385.5796,17.226536,6297.8047};
+				angles[]={0,1.5706302,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=164;
+			type="Land_Cabinet_EP1";
+			atlOffset=0.10948181;
+		};
+		class Item47
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3375.731,17.227976,6276.3101};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=166;
+			type="Land_Cabinet_EP1";
+		};
+		class Item48
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3383.4856,16.201385,6301.7344};
+				angles[]={0,3.103091,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=171;
+			type="Land_Chest_EP1";
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3386.4495,16.701576,6289.0239};
+				angles[]={0,1.5669802,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=173;
+			type="Land_Icebox_F";
+		};
+		class Item50
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3405.5547,17.227953,6300.3901};
+				angles[]={0,0.026784046,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=175;
+			type="Land_Cabinet_EP1";
+		};
+		class Item51
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3394.9067,16.3776,6310.5933};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=176;
+			type="Land_Sun_chair_F";
+			atlOffset=9.5367432e-007;
+		};
+		class Item52
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3391.9446,16.377512,6310.1313};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=178;
+			type="Land_Sun_chair_F";
+			atlOffset=-8.6784363e-005;
+		};
+		class Item53
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3400.9446,16.377605,6310.5669};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=179;
+			type="Land_Sun_chair_F";
+			atlOffset=6.6757202e-006;
+		};
+		class Item54
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3410.0667,16.311903,6301.0215};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=183;
+			type="Land_Table_small_EP1";
+		};
+		class Item55
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3408.7439,16.07933,6301.5728};
+				angles[]={0,5.4525332,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=184;
+			type="CUP_A1_armchair";
+		};
+		class Item56
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3411.6738,16.07933,6302.0615};
+				angles[]={0,0.85349083,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=185;
+			type="CUP_A1_armchair";
+		};
+		class Item57
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3411.0308,16.07933,6298.0728};
+				angles[]={0,2.6004958,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=191;
+			type="CUP_A2_armchair";
+		};
+		class Item58
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3411.6892,16.079357,6281.1445};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=195;
+			type="CUP_A2_lobby_chair";
+		};
+		class Item59
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3408.1411,16.07933,6298.2686};
+				angles[]={0,3.792583,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=196;
+			type="CUP_A2_armchair";
+		};
+		class Item60
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3409.6147,16.079353,6280.3276};
+				angles[]={0,5.7040038,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=197;
+			type="CUP_A2_lobby_chair";
+		};
+		class Item61
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3410.3198,16.079697,6277.4409};
+				angles[]={0,3.2110541,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=198;
+			type="CUP_A2_lobby_chair";
+			atlOffset=0.00035095215;
+		};
+		class Item62
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3411.9253,16.07935,6277.5771};
+				angles[]={0,3.2110541,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=199;
+			type="CUP_A2_lobby_chair";
+		};
+		class Item63
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3411.1665,16.311926,6279.4507};
+				angles[]={0,4.6793432,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=200;
+			type="Land_Table_small_EP1";
+		};
+		class Item64
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3408.0557,16.473145,6271.5205};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=201;
+			type="CUP_A2_vase_loam_3_ep1";
+			atlOffset=-9.5367432e-007;
+		};
+		class Item65
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3398.7336,16.441982,6280.5405};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=202;
+			type="Land_Vase_EP1";
+		};
+		class Item66
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3398.5623,16.441982,6283.689};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=203;
+			type="Land_Vase_EP1";
+		};
+		class Item67
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7457.4331,34.69574,5724.4424};
+				angles[]={0,1.5593644,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=238;
+			type="rhsusf_m113_usarmy";
+			atlOffset=1.9073486e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit""],[2,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[10,2,2,2,4]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[1]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item68
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7457.7695,34.69574,5734.2588};
+				angles[]={0,1.5593644,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=239;
+			type="rhsusf_m113_usarmy";
+			atlOffset=1.9073486e-006;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit""],[2,4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[10,2,2,2,4]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[1]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item69
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5723.8291,127.69203,6769.46};
+				angles[]={0,3.1117396,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=273;
+			type="Land_BagFence_Long_F";
+		};
+		class Item70
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5721.73,127.69382,6769.6792};
+				angles[]={0,3.1072168,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=274;
+			type="Land_BagFence_Corner_F";
+		};
+		class Item71
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5719.6138,127.69203,6775.1704};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=275;
+			type="Land_BagFence_Round_F";
+		};
+		class Item72
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5729.2217,127.69203,6732.4028};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=276;
+			type="Land_BagFence_Round_F";
+		};
+		class Item73
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5723.8555,127.69203,6742.6802};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=277;
+			type="Land_BagFence_Long_F";
+		};
+		class Item74
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5784.9043,127.69502,6728.4077};
+				angles[]={0,1.5649005,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=278;
+			type="Land_BagFence_Long_F";
+		};
+		class Item75
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5784.8325,127.69502,6731.3784};
+				angles[]={0,4.7063107,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=279;
+			type="Land_BagFence_Long_F";
+		};
+		class Item76
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5784.1929,127.68999,6742.9604};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=280;
+			type="Land_BagFence_Short_F";
+			atlOffset=4.0945435;
+		};
+		class Item77
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5743.5298,127.69203,6775.1279};
+				angles[]={0,3.1347029,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=281;
+			type="Land_BagFence_Round_F";
+		};
+		class Item78
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5746.3325,127.69203,6774.9111};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=282;
+			type="Land_BagFence_Long_F";
+		};
+		class Item79
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5738.6108,127.57001,6760.186};
+				angles[]={0,4.6733541,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=283;
+			type="Land_BagFence_Short_F";
+		};
+		class Item80
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5773.3892,127.69203,6779.2261};
+				angles[]={0,4.7273107,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=284;
+			type="Land_BagFence_Long_F";
+		};
+		class Item81
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5773.3647,127.69203,6776.2617};
+				angles[]={0,1.610948,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=285;
+			type="Land_BagFence_Long_F";
+		};
+		class Item82
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5768.1265,127.57504,6748.0293};
+				angles[]={0,1.5305123,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=286;
+			type="Land_BagFence_Long_F";
+			atlOffset=7.6293945e-006;
+		};
+		class Item83
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5779.4243,128.12135,6761.3428};
+				angles[]={0,3.1523433,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=295;
+			type="Land_BagBunker_Small_F";
+		};
+		class Item84
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5779.4243,128.12135,6755.5635};
+				angles[]={0,6.2547054,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=296;
+			type="Land_BagBunker_Small_F";
+		};
+		class Item85
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5782.812,127.57658,6757.8965};
+				angles[]={0,4.6557159,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=297;
+			type="Land_BagFence_Round_F";
+		};
+		class Item86
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5776.1152,127.57504,6758.4204};
+				angles[]={0,1.5319896,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=298;
+			type="Land_BagFence_Round_F";
+			atlOffset=7.6293945e-006;
+		};
+		class Item87
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5730.4077,127.57683,6752.8105};
+				angles[]={0,4.7793169,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=299;
+			type="Land_BagFence_Corner_F";
+			atlOffset=7.6293945e-006;
+		};
+		class Item88
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5730.043,127.57504,6750.7402};
+				angles[]={0,1.6104113,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=300;
+			type="Land_BagFence_Long_F";
+			atlOffset=7.6293945e-006;
+		};
+		class Item89
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5732.3706,127.57504,6753.1416};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=301;
+			type="Land_BagFence_Long_F";
+			atlOffset=7.6293945e-006;
+		};
+		class Item90
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5709.002,123.6391,6792.9482};
+				angles[]={0,4.7333975,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=302;
+			type="Fort_Barricade_EP1";
+		};
+		class Item91
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5789.2627,123.6391,6793.6904};
+				angles[]={0,4.6716657,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=304;
+			type="Fort_Barricade";
+		};
+		class Item92
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5792.791,123.72779,6797.938};
+				angles[]={0,1.2080011,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=306;
+			type="Land_Razorwire_F";
+		};
+		class Item93
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5796.6206,123.72779,6788.2598};
+				angles[]={0,1.9176855,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=307;
+			type="Land_Razorwire_F";
+		};
+		class Item94
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5793.2378,134.32381,6775.1235};
+				angles[]={0,4.6940818,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=310;
+			type="Land_BagBunker_Small_F";
+		};
+		class Item95
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5755.4756,134.41084,6730.5659};
+				angles[]={0,6.2665663,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=311;
+			type="Land_BagBunker_Small_F";
+		};
+		class Item96
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5766.3647,127.69504,6730.585};
+				angles[]={0,3.9375587,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=312;
+			type="Land_BagFence_Round_F";
+		};
+		class Item97
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5761.1646,127.69351,6730.5332};
+				angles[]={0,2.2061822,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=313;
+			type="Land_BagFence_Round_F";
+		};
+		class Item98
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5763.7266,127.69444,6731.3071};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=314;
+			type="Land_BagFence_Long_F";
+			atlOffset=7.6293945e-006;
+		};
+		class Item99
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6678.3389,227.21678,6355.2422};
+				angles[]={0.075343013,3.7426836,0.025771141};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=315;
+			type="C_SUV_01_F";
+			atlOffset=-0.001739502;
+		};
+		class Item100
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6679.1235,221.23283,6432.8276};
+				angles[]={0.036805011,2.123801,6.2813263};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=317;
+			type="C_Van_01_box_F";
+			atlOffset=-0.0019378662;
+		};
+		class Item101
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3484.3057,17.417528,6251.772};
+				angles[]={0,4.7222209,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=319;
+			type="C_Hatchback_01_F";
+			atlOffset=-0.0010271072;
+		};
+		class Item102
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4564.7959,39.023354,8186.9258};
+						angles[]={0,0.5420469,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						name="galkine";
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_I_G_Story_Protagonist_F";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_Aviator";
+							headgear="H_Bandanna_blu";
+						};
+					};
+					id=341;
+					type="C_man_polo_1_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="GreekHead_A3_02";
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=340;
+		};
+		class Item103
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4559.1733,41.341602,8192.3574};
+				angles[]={0,3.1429942,6.2298446};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=357;
+			type="RHS_Ural_Civ_03";
+		};
+	};
+};

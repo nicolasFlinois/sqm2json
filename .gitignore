@@ -1,0 +1,6 @@
+**/*~
+doc/
+.idea/
+.yardoc/
+Gemfile.lock
+*.gem
