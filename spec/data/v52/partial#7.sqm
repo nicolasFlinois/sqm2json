@@ -1,0 +1,47 @@
+version=52;
+class Mission
+{
+	class Entities
+	{
+		items=14;
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={656.99597,31.547571,12082.889};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKED";
+			};
+			id=9;
+			type="RHS_Su25SM_vvsc";
+			atlOffset=0.11000061;
+			class CustomAttributes
+			{
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+	};
+};

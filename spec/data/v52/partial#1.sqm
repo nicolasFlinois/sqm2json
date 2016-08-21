@@ -1,0 +1,24 @@
+version=52;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=55;
+	};
+	class MarkerIDProvider
+	{
+		nextID=2;
+	};
+	class Camera
+	{
+		pos[]={6035.1602,1088.6522,7068.7422};
+		dir[]={-0.76780707,-0.16959113,0.61803234};
+		up[]={-0.13215849,0.98547709,0.10637729};
+		aside[]={0.62710291,-3.4620971e-006,0.77906758};
+	};
+};

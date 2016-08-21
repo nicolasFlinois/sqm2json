@@ -1,0 +1,5 @@
+class Attribute0
+{
+	property="rhs_decalNumber_type";
+	expression="if(_value != 'NoChange')then{ _this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cRHSAIRSU25NumberPlaces, _value]]] call rhs_fnc_decalsInit}";
+};

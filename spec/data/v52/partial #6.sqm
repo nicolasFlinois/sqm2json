@@ -1,0 +1,46 @@
+version=52;
+class Mission
+{
+	class Entities
+	{
+		items=14;
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={632.6355,32.940636,12101.798};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=3;
+			type="rhs_Flag_Russia_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+	};
+};

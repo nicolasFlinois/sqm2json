@@ -1,0 +1,14 @@
+version=52;
+binarizationWanted=0;
+addons[]=
+{
+	"rhs_c_a2port_air",
+	"rhs_c_a2port_car",
+	"rhs_main",
+	"A3_Characters_F",
+	"CUP_CA_Config",
+	"A3_Ui_F",
+	"RHS_US_A2_AirImport",
+	"A3_Structures_F_Mil_Flags",
+	"ace_compat_rhs_usf3"
+};

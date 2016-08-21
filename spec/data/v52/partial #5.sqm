@@ -1,0 +1,53 @@
+class Mission
+{
+	class Entities
+	{
+		items=14;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={756.65125,31.796963,12071.366};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=0;
+			type="RHS_Mi8mt_vdv";
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={717.2403,31.796963,12073.272};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1;
+			type="RHS_Mi8mt_vdv";
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={797.07861,30.632093,12080.811};
+				angles[]={0,0.35341072,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2;
+			type="RHS_Ural_Fuel_VDV_01";
+		};
+	};
+};

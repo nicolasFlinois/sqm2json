@@ -13,6 +13,7 @@ describe ::Sqm2Json, '#convert' do
 
   it 'should parse all SQM files' do
     sqmFiles.each { |sqmFile|
+      puts "Parsing file '#{sqmFile}'"
       expect {  subject.to_json(File.read(sqmFile))  }.to_not raise_exception
     }
   end

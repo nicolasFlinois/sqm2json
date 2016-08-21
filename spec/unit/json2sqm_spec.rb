@@ -88,6 +88,7 @@ describe Sqm2Json::Reverse, '#get_element' do
     expect(subject.get_element(:key,['value1', 'value2'], 2)).to eq("\t\tkey[]=\r\n\t\t{\r\n\t\t\t\"value1\",\r\n\t\t\t\"value2\"\r\n\t\t};\r\n")
     expect(subject.get_element("type", ["BOOL"], 3)).to eq("\t\t\ttype[]=\r\n\t\t\t{\r\n\t\t\t\t\"BOOL\"\r\n\t\t\t};\r\n")
     expect(subject.get_element(:nextID,412,2)).to eq("\t\tnextID=412;\r\n")
+    expect(subject.get_element(:expression, "if(parseNumber _value >= 0)then{if(parseNumber _value == 0)then{{[_this setobjectTexture [_x,'a3\\data_f\\clear_empty.paa']]}foreach cRHSAIRSU25NumberPlaces}else{[_this, [['Number', cRHSAIRSU25NumberPlaces, _this getVariable ['rhs_decalNumber_type','AviaYellow'],parseNumber _value] ] ] call rhs_fnc_decalsInit}};", 0)).to eq("expression=\"if(parseNumber _value >= 0)then{if(parseNumber _value == 0)then{{[_this setobjectTexture [_x,'a3\\data_f\\clear_empty.paa']]}foreach cRHSAIRSU25NumberPlaces}else{[_this, [['Number', cRHSAIRSU25NumberPlaces, _this getVariable ['rhs_decalNumber_type','AviaYellow'],parseNumber _value] ] ] call rhs_fnc_decalsInit}};\";\r\n")
     expect(subject.get_element("EditorData",{
         "moveGridStep": 1,
         "angleGridStep": 0.2617994,

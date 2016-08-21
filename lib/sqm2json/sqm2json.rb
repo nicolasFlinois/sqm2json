@@ -11,9 +11,8 @@ module Sqm2Json
     content.gsub!('""', '\"') # 2x" in init fields replaced by \"
 
     content.gsub!(/(?<key>[\w]+)(\[\])?=(?<val>".{0,}?([^\\]\";))/) { |m|
-      pairs = m.split('=')
-      puts pairs[1].gsub(/;/,'ʊ').gsub(/,/,'ʎ').chomp('ʊ').gsub('""','\"') if pairs[1].include? '""'
-      "\"#{pairs[0]}\": #{pairs[1].gsub(/;/,'ʊ').gsub(/,/,'ʎ').chomp('ʊ').gsub('""','\"')},"
+      pairs = m.split('=', 2)
+      "\"#{pairs[0]}\": #{pairs[1].gsub(/;/,'ʊ').gsub(/,/,'ʎ').chomp('ʊ').gsub('""','\"').gsub(/\\([^"])/, '\\\\\\\\\1')},"
     }
 
     content.gsub!(/class (?<val>\w+)\s*\{/, '"\k<val>" : {')
@@ -25,6 +24,7 @@ module Sqm2Json
     content.gsub!(/ʊ/, ';') if content.include? 'ʊ'
     content.gsub!(/ʎ/, ',') if content.include? 'ʎ'
     content.gsub!(/ʉ/, '') if content.include? 'ʉ'
+    content.gsub!(/ɣ/, '\'') if content.include? 'ɣ'
     content = "{#{content.chomp('"').chomp(',')}}"
 
     ::JSON.parse(content, symbolize_names: true)

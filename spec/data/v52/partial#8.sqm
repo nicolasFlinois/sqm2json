@@ -1,0 +1,23 @@
+version=52;
+class Mission
+{
+	class Entities
+	{
+		items=14;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={756.65125,31.796963,12071.366};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=0;
+			type="RHS_Mi8mt_vdv";
+		};
+	};
+};
