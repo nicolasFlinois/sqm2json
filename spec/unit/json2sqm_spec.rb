@@ -1,7 +1,5 @@
 require File.expand_path('../../spec_helper.rb', __FILE__)
 
-
-
 describe Sqm2Json::Reverse, '#to_sqm' do
 
   subject {
@@ -17,7 +15,11 @@ describe Sqm2Json::Reverse, '#to_sqm' do
       expect {
         json = subject.to_json(File.read(sqmFile))
         sqm = subject.to_sqm(json)
-        generated_file_path = Tempfile.new('mission.sqm')
+
+        log_dir = File.join(File.expand_path('../../../log/', __FILE__), File.basename(File.dirname(sqmFile)), 'sqm')
+        FileUtils.mkdir_p(log_dir) unless File.exist?(log_dir)
+        generated_file_path = File.join(log_dir, File.basename(sqmFile))
+        File.delete(generated_file_path) if File.exist?(generated_file_path)
         File.open(generated_file_path, 'w+') { |f|
           f.puts sqm
         }
@@ -55,6 +57,7 @@ describe Sqm2Json::Reverse, '#get_numeric' do
   it 'should parse values with exponent' do
     expect(subject.get_numeric(-1.1994416e-0006)).to eq('-1.1994416e-006')
     expect(subject.get_numeric(-1.3831086e-5)).to eq('-1.3831086e-005')
+    expect(subject.get_numeric(-3.4028235e+38)).to eq('-3.4028235e+038')
   end
 
 end

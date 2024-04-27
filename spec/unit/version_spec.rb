@@ -6,7 +6,7 @@ describe 'Sqm2Json::get_supported_versions' do
 
   it 'should return the currently supported SQM format versions inside an array' do
     expect(Sqm2Json::get_supported_versions).to be_a(Array)
-    expect(Sqm2Json::get_supported_versions).to eq([12,51,52])
+    expect(Sqm2Json::get_supported_versions).to eq([12,51,52,54])
   end
 
 end
@@ -17,6 +17,7 @@ describe 'Sqm2Json::is_version_supported?' do
     expect(Sqm2Json::is_version_supported?(12)).to be_truthy
     expect(Sqm2Json::is_version_supported?(51)).to be_truthy
     expect(Sqm2Json::is_version_supported?(52)).to be_truthy
+    expect(Sqm2Json::is_version_supported?(54)).to be_truthy
   end
 
   it 'should return no for unsupported versions' do

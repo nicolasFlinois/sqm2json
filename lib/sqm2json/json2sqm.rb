@@ -78,7 +78,7 @@ module Sqm2Json
     # @param [Object] value of JSON element
     # @return [String] SQM formatted numeric value
     def get_numeric(value)
-      value.to_s.gsub(/(?<val>[0-9\.]+e-?)(?<exp>[0-9]+)/) { |m|
+      value.to_s.gsub(/(?<val>[0-9\.]+e[-\+]?)(?<exp>[0-9]+)/) { |m|
         arr = m.split(/e/)
         if arr[1][0] =~ /[0-9]/
           "#{arr[0]}e#{arr[1].rjust(3,'0')}"
