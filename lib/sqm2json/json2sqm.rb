@@ -1,4 +1,6 @@
+
 module Sqm2Json
+  # Provide JSON => SQM conversion
   module Reverse
 
     # Generate a SQM formatted output from given JSON document
@@ -6,12 +8,9 @@ module Sqm2Json
     # @return [String] SQM document as string
     def to_sqm(json)
       content = ''
-      json.each { |k,v|
-        content += get_element(k, v, 0)
-      }
+      json.each { |k, v| content += get_element(k, v, 0) }
       content
     end
-
 
     # Convert any JSON element to SQM equivalent
     # @param [Object] key of JSON element
@@ -20,27 +19,29 @@ module Sqm2Json
     # @return [String] SQM formatted element
     def get_element(key, value, level)
       content = ''
-      level.times { content << "\t"}
+      level.times { content << "\t" }
 
-      if value.is_a?(::Numeric)
-        content << "#{key.to_s}=#{get_numeric(value)};\r\n"
-      elsif value.is_a?(::String)
-        content << "#{key.to_s}=\"#{value.gsub(/"/, '""').to_s}\";\r\n"
-      elsif value.is_a?(::Array)
+      case value
+      when ::Numeric
+        content << "#{key}=#{get_numeric(value)};\r\n"
+      when ::String
+        content << "#{key}=\"#{value}\";\r\n"
+      when ::Array
         content << get_array(key, value, level)
-      elsif value.is_a?(::Hash)
-        content << "class #{key.to_s}\r\n"
-        level.times { content << "\t"}
+      when ::Hash
+        content << "class #{key}\r\n"
+        level.times { content << "\t" }
         content << "{\r\n"
-        value.each{ |k,v|
+        value.each { |k, v|
           content << get_element(k, v, level + 1)
         }
-        level.times { content << "\t"}
+        level.times { content << "\t" }
         content << "};\r\n"
+      else
+        raise "Invalid JSON element type: #{value.class}"
       end
       content
     end
-
 
     # Convert a JSON value array in SQM equivalent
     # @param [Object] key of JSON element
@@ -49,43 +50,41 @@ module Sqm2Json
     # @return [String] SQM formatted array
     def get_array(key, values, level)
       content = ''
-      content << "#{key.to_s}[]="
+      content << "#{key}[]="
       if values[0].is_a?(::Numeric)
         content << '{'
         values.each { |v|
           content << "#{get_numeric(v)},"
         }
         content.chomp!(',')
-        content << "};\r\n"
       else
         content << "\r\n"
-        level.times { content << "\t"}
+        level.times { content << "\t" }
         content << "{\r\n"
-        values.each { |v|
-          (level + 1).times {content << "\t"}
+        values.each do |v|
+          (level + 1).times {content << "\t" }
           content << "\"#{v.to_s}\",\r\n"
-        }
+        end
         content.chomp!(",\r\n")
         content << "\r\n"
-        level.times { content << "\t"}
-        content << "};\r\n"
+        level.times { content << "\t" }
       end
+      content << "};\r\n"
       content
     end
-
 
     # Convert a JSON numeric value in SQM equivalent
     # @param [Object] value of JSON element
     # @return [String] SQM formatted numeric value
     def get_numeric(value)
-      value.to_s.gsub(/(?<val>[0-9\.]+e[-\+]?)(?<exp>[0-9]+)/) { |m|
+      value.to_s.gsub(/(?<val>[0-9\.]+e[-\+]?)(?<exp>[0-9]+)/) do |m|
         arr = m.split(/e/)
         if arr[1][0] =~ /[0-9]/
           "#{arr[0]}e#{arr[1].rjust(3,'0')}"
         else
-          "#{arr[0]}e#{arr[1][0]}#{arr[1][1..-1].rjust(3,'0')}"
+          "#{arr[0]}e#{arr[1][0]}#{arr[1][1..].rjust(3,'0')}"
         end
-      }.to_s
+      end.to_s
     end
 
   end

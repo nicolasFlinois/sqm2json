@@ -1,0 +1,17 @@
+version=54;
+class Mission
+{
+	class Entities
+	{
+		class Item0
+		{
+			class Attributes
+			{
+				init="""car""";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+		};
+	};
+};

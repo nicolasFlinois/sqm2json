@@ -1,3 +1,4 @@
+# Provide SQM =>> JSON conversion
 module Sqm2Json
 
   # Parse a given SQM file to JSON document
@@ -6,28 +7,30 @@ module Sqm2Json
   # @return [Hash] JSON document
   def to_json(sqm_document)
     content = sqm_document.delete("\r\n").delete("\t")
-
-    content.gsub!(/(?<key>\w*)(\s)*=(\s)*(?<val>"");/, '\k<key>="ʉ";') # replace empty string values
-    content.gsub!('""', '\"') # 2x" in init fields replaced by \"
-
-    content.gsub!(/(?<key>[\w]+)(\[\])?=(?<val>".{0,}?([^\\]\";))/) { |m|
-      pairs = m.split('=', 2)
-      "\"#{pairs[0]}\": #{pairs[1].gsub(/;/,'ʊ').gsub(/,/,'ʎ').chomp('ʊ').gsub('""','\"').gsub(/\\([^"])/, '\\\\\\\\\1')},"
-    }
-
+    content.gsub!(/(?<key>\w*)\s*=\s*(?<val>"");/, '\k<key>="ʉ";') # replace empty string values
+    protect_special_chars_into_values(content)
     content.gsub!(/class (?<val>\w+)\s*\{/, '"\k<val>" : {')
     content.gsub!(/(?<key>\w*)=(?<val>[\w#+\-0-9 .,]+);/, '"\k<key>" : \k<val>,')
     content.gsub!(/(?<key>\w*)\[\]\s*=\s*\{(?<val>[\w#\+\-0-9 .,"]+)\};/, '"\k<key>" : [\k<val>],')
     content.gsub!(/\};/, '},')
     content.gsub!(/,\}/, '}')
     content.gsub!(/\}[;,]\}/, '}}')
-    content.gsub!(/ʊ/, ';') if content.include? 'ʊ'
-    content.gsub!(/ʎ/, ',') if content.include? 'ʎ'
-    content.gsub!(/ʉ/, '') if content.include? 'ʉ'
-    content.gsub!(/ɣ/, '\'') if content.include? 'ɣ'
-    content = "{#{content.chomp('"').chomp(',')}}"
+    recover_special_chars_into_values(content)
+    ::JSON.parse("{#{content.chomp('"').chomp(',')}}", symbolize_names: true)
+  end
 
-    ::JSON.parse(content, symbolize_names: true)
+  # Replace special characters into init-like fields before processing the structure
+  def protect_special_chars_into_values(content)
+    content.gsub!(/(\w+)(\[\])?\s*=\s*"(.{0,}?([^\\]))";/) do
+      "\"#{$1}\": \"#{$3.gsub(/;/, 'ʊ').gsub(/,/, 'ʎ').gsub('"', 'ƛ').gsub(/'/, 'ɣ').gsub(/\\([^"])/, '\\\\\\\\\1')}\","
+    end
+  end
+
+  # Recover protected special characters into init-like fields after processing the structure
+  def recover_special_chars_into_values(content)
+    content.gsub!(/"(\w+)(\[\])?"\s*:\s*"(.{0,}?([^\\])*)"(,)?/) do
+      "\"#{$1}\" : \"#{$3.gsub(/ʊ/, ';').gsub(/ʎ/, ',').gsub(/ƛ/, '\"').gsub(/ɣ/, '\'').gsub(/ʉ/, '')}#{$4}\""
+    end
   end
 
 end
